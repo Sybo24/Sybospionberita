@@ -3,7 +3,7 @@ name: Spion Berita Otomatis
 on:
   schedule:
     # Jadwal otomatis: Berjalan tiap 3 jam sekali
-    - cron: '0 */3 * * *'
+    - cron:'*/5 * * * *'
   workflow_dispatch: # Biar bisa ditrigger manual juga kalau lagi pengen
 
 jobs:
